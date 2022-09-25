@@ -1,0 +1,12 @@
+.nav_container{
+    background-color: var(--sunny-overlay);
+    width: 30vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: auto;
+    opacity: 0.9;
+    /* border-left: 1px  var(--sunny-line-tint); */
+    /* filter: blur(1px); */
+}

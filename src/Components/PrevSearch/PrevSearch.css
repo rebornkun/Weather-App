@@ -1,0 +1,21 @@
+.prevSearch_container{
+    margin: 2rem 3rem;
+    height: 15rem;
+    overflow: scroll;
+    border-bottom: 1px solid var(--line-tint);
+    overflow-x: hidden;
+    overflow-y: overlay;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.prevSearch_container::-webkit-scrollbar {
+    display: none;
+}
+
+
+.prevSearchBlock_container{
+    padding: 0.6rem 0rem;
+}
+.prevSearchBlock_container p{
+    color: var(--line-text);
+}

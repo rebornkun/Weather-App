@@ -1,0 +1,72 @@
+.details_container{
+    width: 70%;
+    height: fit-content;
+    position: absolute;
+    bottom: 3rem;
+    left: 4rem;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.details_container .degree{
+    color: var(--tin-white);
+    font-size: 7rem;
+    font-weight: 400;
+    white-space: nowrap;
+    line-height: 5.5rem;
+    width: fit-content;
+    /* filter: drop-shadow(5px 8px 3px rgb(61, 60, 60)); */
+    display: flex;
+    flex-direction: row;
+}
+.details_container .degree .degree_sym{
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.location_date{
+    color: var(--tin-white);
+    font-size: 1rem;
+    font-weight: 400;
+    white-space: nowrap;
+    width: fit-content;
+    /* filter: drop-shadow(5px 8px 3px rgb(61, 60, 60)); */
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.location{
+    font-size: 2.4rem;
+    line-height: 3rem;
+}
+
+.time_date{
+    font-size: 0.7rem;
+}
+
+.weather{
+    color: var(--tin-white);
+    font-size: 1rem;
+    font-weight: 400;
+    white-space: nowrap;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    align-items: center;
+}
+
+.weather_icon{
+    height: 100px;
+    width: 100px;
+    margin: -0.5rem;
+    filter: none;
+}
+
+.weather_name{
+    font-size: 0.7rem;
+    filter: drop-shadow(5px 8px 3px rgb(61, 60, 60));
+}

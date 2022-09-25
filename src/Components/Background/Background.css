@@ -1,0 +1,21 @@
+.back_container{
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.back_container img{
+    height: 100%;
+    width: 100%;
+    filter: brightness(20px);
+}
+
+.back_container video{
+    /* height: 100%; */
+    width: 100%;
+}
+
