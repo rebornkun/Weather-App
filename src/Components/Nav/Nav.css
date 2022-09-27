@@ -7,6 +7,133 @@
     right: 0;
     margin: auto;
     opacity: 0.9;
+    transition: all 0.4s ease;
     /* border-left: 1px  var(--sunny-line-tint); */
     /* filter: blur(1px); */
+}
+
+.nav_toggler_container{
+    background-color: var(--sunny-tint);
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    height: 4rem;
+    width: 4rem;
+    /* border: 1px solid var(--sunny-overlay); */
+    border-radius: 15%;
+    z-index: 3;
+    transition: all 0.4s ease;
+    display: none;
+  }
+  .nav_toggler{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .nav_toggler span{
+    width: 70%;
+    background: var(--tin-white);
+    height: 2px;
+    position: absolute;
+  }
+  .nav_toggler span::before{
+    content: '';
+    width: 100%;
+    background: var(--tin-white);
+    height: 2px;
+    top: 1rem;
+    position: absolute;
+  }
+  .nav_toggler span::after{
+    content: '';
+    width: 100%;
+    background: var(--tin-white);
+    height: 2px;
+    top: -1rem;
+    position: absolute;
+  }
+
+  /* small laptops */
+/* small laptops */
+/* small laptops */
+/* small laptops */
+@media screen and (max-width: 1280px) {
+    
+}
+
+/* smaller laptops and big tablets */
+/* smaller laptops and big tablets */
+/* smaller laptops and big tablets */
+/* smaller laptops and big tablets */
+
+@media screen and (max-width: 1024px) {
+  
+}
+
+/* tablets */
+/* tablets */
+/* tablets */
+/* tablets */
+
+@media screen and (max-width: 860px) {
+
+    
+}
+
+/* Phones */
+/* Phones */
+/* Phones */
+/* Phones */
+
+@media screen and (max-width: 576px) {
+
+    .nav_container{
+        background-color: var(--sunny-overlay);
+        width: 70vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: auto;
+        opacity: 0.9;
+        z-index: 2;
+        /* border-left: 1px  var(--sunny-line-tint); */
+        /* filter: blur(1px); */
+    }
+  
+    .nav_container{
+        transform: translateX(100%);
+    }
+
+    .nav_container.open{
+        transition: all 0.4s ease;
+        transform: translateX(0%);
+    }
+
+    .nav_toggler_container{
+        display: block;
+    }
+    .nav_toggler_container.open{
+        transition: all 0.4s ease;
+        transform: translate(-55vw, 40vh);
+    }
+    .nav_toggler_container.open .nav_toggler span {
+        transition: all 0.4s ease;
+        background: none;
+      }
+    .nav_toggler_container.open .nav_toggler span::after {
+        transition: all 0.4s ease;
+        transform: rotate(45deg);
+        top: 0rem;
+      }
+    .nav_toggler_container.open .nav_toggler span::before {
+        transition: all 0.4s ease;
+        transform: rotate(135deg);
+        top: 0rem;
+      }
+  
 }

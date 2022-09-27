@@ -19,3 +19,38 @@
     width: 100%;
 }
 
+/* small laptops */
+/* small laptops */
+/* small laptops */
+/* small laptops */
+@media screen and (max-width: 1280px) {
+    
+  }
+  
+  /* smaller laptops and big tablets */
+  /* smaller laptops and big tablets */
+  /* smaller laptops and big tablets */
+  /* smaller laptops and big tablets */
+  
+  @media screen and (max-width: 1024px) {
+    
+  }
+  
+  /* tablets */
+  /* tablets */
+  /* tablets */
+  /* tablets */
+  
+  @media screen and (max-width: 860px) {
+    
+  }
+  
+  /* Phones */
+  /* Phones */
+  /* Phones */
+  /* Phones */
+  
+  @media screen and (max-width: 576px) {
+    
+  }
+

@@ -5,6 +5,7 @@ import './App.css';
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import ErrorBox from '../Components/ErrorBox/ErrorBox';
+import { type } from '@testing-library/user-event/dist/type';
 
 function App() {
   const [prevSearch, setprevSearch] = useState([])
